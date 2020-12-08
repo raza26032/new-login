@@ -29,7 +29,10 @@
         </div>
     </div>
 
-    <script src="script.js"></script>
+    <script>
+        document.getElementById("userN").innerHTML = localStorage.getItem("sname");
+        document.getElementById("userE").innerHTML = localStorage.getItem("semail");
+    </script>
 </body>
 
 </html>
